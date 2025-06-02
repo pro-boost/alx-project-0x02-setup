@@ -9,8 +9,8 @@ export interface PostModalProps {
 }
 export interface ButtonProps {
     type?: "button" | "submit" | "reset";
-    size: string;
-    shape: string;
+    size: "small" | "medium" | "large";
+    shape: "rounded-sm" | "rounded-md" | "rounded-lg";
     text: string;
     background: string;
     onClick?: () => void;

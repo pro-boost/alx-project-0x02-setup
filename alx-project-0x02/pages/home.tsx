@@ -19,7 +19,7 @@ export default function HomePage() {
       <Card title="Card 2" content="Card 2 content" />
       <Card title="Card 3" content="Card 3 content" />
       <Button
-        size="text-lg px-6 py-3"
+        size="large"
         shape="rounded-sm"
         text="Add Card"
         background="bg-blue-600 text-white"

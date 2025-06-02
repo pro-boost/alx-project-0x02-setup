@@ -82,13 +82,13 @@ const PostModal: React.FC<PostModalProps> = ({ onClick }) => {
           <div className="flex justify-end space-x-3 pt-4">
             <Button
               type="submit"
-              size="px-4 py-2 text-sm"
+              size="small"
               shape="rounded-md"
               text="Submit"
               background="font-medium text-white bg-blue-600 hover:bg-blue-700 "
             />
             <Button
-              size="px-4 py-2 text-sm"
+              size="medium"
               shape="rounded-md"
               text="Cancel"
               background="bg-gray-100 hover:bg-gray-200 text-gray-700"
