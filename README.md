@@ -8,7 +8,7 @@ It covers everything from initial setup to building reusable UI components, impl
 
 ---
 
-## 🚀 Proje
+## 🚀 Project Description
 
 This project is a comprehensive guide to setting up and working with:
 
