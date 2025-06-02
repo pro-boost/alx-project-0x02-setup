@@ -5,7 +5,13 @@ export interface CardProps {
 }
 
 export interface PostModalProps {
-    title: string;
-    content : string;
-    onClick: () => void;
+    onClick?: () => void;
+}
+export interface ButtonProps {
+    type?: "button" | "submit" | "reset";
+    size: string;
+    shape: string;
+    text: string;
+    background: string;
+    onClick?: () => void;
 }
