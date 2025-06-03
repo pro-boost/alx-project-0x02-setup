@@ -18,6 +18,12 @@ export default function Header() {
             >
               About
             </Link>
+            <Link
+              href="/posts"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+            >
+              Posts
+            </Link>
           </div>
         </div>
       </nav>
