@@ -15,3 +15,16 @@ export interface ButtonProps {
     background: string;
     onClick?: () => void;
 }
+
+export interface PostCardProps {
+    title: string;
+    content : string;
+    userId: number;
+
+}
+export interface Post {
+    id?: number;
+    title: string;
+    body: string;
+    userId: number;
+  }
