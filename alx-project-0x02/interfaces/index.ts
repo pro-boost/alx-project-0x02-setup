@@ -32,3 +32,16 @@ export interface Post {
   export interface PostsProps {
     posts: Post[]
   }
+  export interface User  {
+    id?: number;
+    name:string; 
+    email: string;
+    address: Address;
+  }
+  export interface Address {
+    street: string;
+    city: string;
+  }
+  export interface UserProps{
+    users: User[]
+  }
