@@ -28,3 +28,7 @@ export interface Post {
     body: string;
     userId: number;
   }
+ 
+  export interface PostsProps {
+    posts: Post[]
+  }
